@@ -1,0 +1,50 @@
+git config --global user.name 'Srishti Singh'
+git config --global user.email 'SRISHTIworksHARD@gmail.com'
+
+git init
+-to go inside the folder mentioned. 
+-After this instruction we get a hidden folder called .git in the folder where all your files are.
+
+git status
+-gives the status of files
+
+git add .       git add filename.ext
+-adds the selected or all the files
+
+git commit -m 'message'
+-commits any changes
+
+git chechkout commit_id
+-reaches to the commit id specified and gives that scenario i.e gives the status at that time
+-does not deletes the earlier commits
+
+git checkout master
+-goes to the final commit and the scenario is now the current one
+
+git checkout -b branch_name
+-creates a new branch  
+
+git revert commit_id
+-deletes that id
+
+git reset commit_id --hard
+-deletes all the commits made after the commit_id and only commit_id is left
+
+git log       git log --oneline
+-gives details about commits
+
+
+
+
+
+
+
+
+
+
+
+
+**reverting a commit i.e. deleting
+**using gui for git
+
+
